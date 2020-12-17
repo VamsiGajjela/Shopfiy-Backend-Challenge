@@ -10,6 +10,7 @@ If you do not have django, open up terminal/cmd and type in pip install django. 
 How to use once requirements are set up:
 1. Open up cmd/terminal based on whatever os that you are using
 2. cd to this directory .../Shopfiy-Backend-Challenge/mysite (the start path will vary)
+
 3.1 if you are on windows you can now type in this command to get started "python manage.py runserver"
 3.2 if you are on macOs you can type in this command "python3 manage.py runserver"
 4. If everything has been set up correctly you should get a link to local site "http://127.0.0.1:8000/" 
