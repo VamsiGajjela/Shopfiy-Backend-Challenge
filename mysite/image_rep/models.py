@@ -13,12 +13,9 @@ class Image(models.Model):
     image_5 = models.ImageField(upload_to='images/{}/{}/{}'.format(day.year, day.month, day.day),blank=True, null=True)
     
     def __str__(self):
-        return self.image_name
+        return "Title: {}".format(self.image_name)
 
     def __repr__(self):
         return self.image_name
 
-    def get_images(self):
-        all_images = [self.image_1, self.image_2, self.image_3, self.image_4, self.image_5]
-        return [image for image in all_images if bool(image)]
     
