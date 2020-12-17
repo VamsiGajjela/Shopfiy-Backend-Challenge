@@ -35,11 +35,16 @@ How to use once requirements are set up:
 
 
 Features in place:
-  -adding image(s) to the repository
+ 
+ -adding image(s) to the repository
+   
     one / bulk / enormous amount of images
-  -deleting image(s)
+   
+ -deleting image(s)
+ 
     one / bulk / selected / all images
 
 
 Username:Shopify
+
 Password:abc123
