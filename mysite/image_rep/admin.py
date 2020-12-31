@@ -1,4 +1,16 @@
 from django.contrib import admin
-from .models import Image
+from .models import Image, allImage
 
-admin.site.register(Image)
+
+class ImageInLine(admin.TabularInline):
+    model = Image
+
+
+class BatchAdmin(admin.ModelAdmin):
+    inlines = [ImageInLine]
+
+    class Meta:
+        model = allImage
+
+
+admin.site.register(allImage, BatchAdmin)
