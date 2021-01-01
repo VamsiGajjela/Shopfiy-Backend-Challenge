@@ -24,7 +24,7 @@ How to use once requirements are set up:
 
 7. You can now use the backend to your pleasing, to create your own username and password go to Users and add user at the top right'
 
-8. To access the image repository backend click Images under IMAGE_REP
+8. To access the image repository backend click All Images under IMAGE_REP
 
 9. From there you can click on add image to add your own images
 
